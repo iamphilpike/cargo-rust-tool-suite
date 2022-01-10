@@ -23,9 +23,9 @@ rustup component add rustfmt
 rustup component add rustfmt --toolchain nightly
 rustup component add clippy 
 rustup component add clippy --toolchain nightly
-cargo install spl-token-cli
 cargo install cargo-expand
 cargo install cargo-edit
+cargo install spl-token-cli
 #Solana Tools##
 
 ##Solana Release Installation v1.9.4##
