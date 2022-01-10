@@ -16,7 +16,7 @@ apt-get install -y \
   libudev-dev
 
 ## Install rustup and common components##
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain nightly
 cargo install spl-token-cli
 cargo install cargo-expand
 cargo install cargo-edit
