@@ -15,8 +15,8 @@ apt-get install -y \
   libssl-dev \
   libudev-dev
 
-## Install rustup and common components
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y 
+## Install rustup and common components##
+curl https://sh.rustup.rs -sSf | sh -s -- -y
 rustup install nightly
 rustup component add rustfmt
 rustup component add rustfmt --toolchain nightly
@@ -28,7 +28,7 @@ cargo install cargo-expand
 cargo install cargo-edit
 #Solana Tools##
 
-##Solana Release Installation v1.9.4
+##Solana Release Installation v1.9.4##
 sh -c "$(curl -sSfL https://release.solana.com/v1.9.4/install)"
 export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"
 
