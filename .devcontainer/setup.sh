@@ -16,13 +16,7 @@ apt-get install -y \
   libudev-dev
 
 ## Install rustup and common components##
-curl https://sh.rustup.rs -sSf | sh -s -- -y
-rustup install nightly
-rustup component add rustfmt
-rustup component add rustfmt --toolchain nightly
-rustup component add clippy 
-rustup component add clippy --toolchain nightly
-
+curl https://sh.rustup.rs -sSf | sh
 cargo install spl-token-cli
 cargo install cargo-expand
 cargo install cargo-edit
