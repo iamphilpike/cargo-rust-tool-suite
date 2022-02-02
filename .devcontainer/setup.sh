@@ -29,7 +29,7 @@ cargo install spl-token-cli
 #Solana Tools##
 
 ##Solana Release Installation v1.9.4##
-sh -c "$(curl -sSfL https://release.solana.com/v1.9.4/install)"
+sh -c "$(curl -sSfL https://release.solana.com/v1.9.5/install)"
 
 
 ## setup and install oh-my-zsh
