@@ -1,5 +1,5 @@
 {
-	"name": "Codespaces Rust argo Solana ClI and Tool Suite",
+	"name": "Codespaces Rust, NodeJS Tool Suite",
 	"extensions": [
 		"cschleiden.vscode-github-actions",
 		"ms-vsliveshare.vsliveshare",
