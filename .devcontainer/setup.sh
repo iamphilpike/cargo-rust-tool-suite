@@ -25,9 +25,9 @@ rustup component add clippy
 rustup component add clippy --toolchain nightly
 cargo install cargo-expand
 cargo install cargo-edit
-cargo install spl-token-cli
-#Solana Tools##
 
+#Solana Tools##
+#cargo install spl-token-cli
 ##Solana Release Installation v1.9.4##
 #sh -c "$(curl -sSfL https://release.solana.com/v1.9.5/install)"
 
@@ -39,7 +39,7 @@ cp /root/.zshrc /home/root
 sed -i -e "s/\/root\/.oh-my-zsh/\/home\/root\/.oh-my-zsh/g" /home/root/.zshrc
 chown -R $USER_UID:$USER_GID /home/root/.oh-my-zsh /home/root/.zshrc
 
-export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"
+#export PATH="/root/.local/share/solana/install/active_release/bin:$PATH"
 
 
 
