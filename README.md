@@ -1,5 +1,5 @@
-# solana-cargo-rust-tool-suite
-CodeSpace Container for Solana Cli and Tool Suite
+# cargo-rust-tool-suite
+CodeSpace Container for
 
 ### System Tools
 
