@@ -45,7 +45,7 @@
 	"remoteUser": "vscode",
 	"features": {
 		"git": "latest",
-		"node": "16",
+		"node": "17",
 		"python": "3.10"
 	}
 }
